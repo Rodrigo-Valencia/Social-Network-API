@@ -1,4 +1,7 @@
+// EXPRESS
 const router = require('express').Router();
+
+// ROUTES FOR USER / THROUGHTS 
 const userRoutes = require('./user-routes');
 const thoughtsRoutes = require('./thoughts-routes');
 

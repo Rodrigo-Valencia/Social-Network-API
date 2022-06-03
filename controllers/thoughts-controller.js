@@ -100,7 +100,7 @@ const thoughtsController = {
     },
 
     // DELETE BY ID
-    deleteThought({ params }, res) {
+    deleteThoughts({ params }, res) {
         Thoughts.findOneAndDelete ({ _id: params.id })
         .then(dbThoughtsData => {
             if (!dbThoughtsData) {
